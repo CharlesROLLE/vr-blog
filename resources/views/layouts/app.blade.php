@@ -14,6 +14,37 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+        <style>
+            .nav-links a {
+    
+                list-style: none;
+                font-weight: 300;
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+    
+    
+            }
+    
+            .nav-links .activa {
+                color: white;
+            }
+    
+            .nav-links a {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                display: flex;
+                margin-top: 1rem;
+                align-items: center;
+                transition: ease 0.4s;
+            }
+    
+            .nav-links a:hover {
+                color: white;
+                transform: translateX(10px);
+            }
+        </style>
+
         @livewireStyles
 
         <!-- Scripts -->

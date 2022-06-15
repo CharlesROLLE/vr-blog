@@ -25,7 +25,7 @@
                                 <img class="hover:scale-110 inline-block mt-24 md:mt-0 p-8 md:p-0"
                                     src="{{ asset('img/pic2hero.png') }}">
                             </div>
-                            <div>
+                            <div class="ml-2">
                                 <img class="hover:translate-y-6 mt-28 inline-block" src="{{ asset('img/pic3hero.png') }}">
                             </div>
                         </div>
